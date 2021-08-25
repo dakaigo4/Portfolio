@@ -1,0 +1,394 @@
+#pageWrapper{
+  border: solid black;
+  background-image: linear-gradient(to right, black, rgb(218, 116, 0));
+}
+
+/*header */
+
+#header {
+  background-image: url('../imgs/eyes.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: black;
+  height: 250px;
+  position: center;
+  padding: 30px;
+  text-transform: uppercase;
+  display:flex;
+  text-align: end;
+  color: white;
+  justify-content: space-between;
+  font-family: 'Yeseva One'; 
+}
+
+
+
+.headerText{
+  
+  text-align: end;
+  color: white;
+  justify-content: space-between;
+  font-family: 'Yeseva One';  
+}
+
+/*nav*/
+
+#navbar {
+  overflow: hidden;
+  background-color: #333;
+  z-index: 9999;
+  
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: 'Yeseva One';
+}
+
+#navbar a:hover {
+  background-image: linear-gradient(to right, black, rgb(218, 116, 0));
+  color: white;
+  border: solid black 1px;
+  
+}
+
+#navbar a.active {
+  background-color: #333;
+  color: white;
+ 
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
+/*moon phase */ 
+#moonPhase{
+  margin: -20px;
+  border: none;
+  
+  width:190px; 
+  height:302px; 
+  overflow: hidden
+}
+
+/*projects main page*/
+
+.buttonP{
+  background-color: #333;
+  color: white;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  border: solid black;
+  border-radius: 15px;
+  width: 300px;
+  height: 30px;
+  font-family: 'Yeseva One';
+  position: absolute;
+  z-index: 1;
+}
+
+.buttonP:hover{
+  background-color: rgb(252, 249, 251);
+  color: black;
+  cursor: pointer;
+ }
+
+h1{
+  color: white;
+}
+
+#codeButtons{
+  justify-content: center;
+  left: 620px;
+  position: absolute;
+}
+
+#copy{
+  text-align: center;
+  color: black;
+}
+
+
+
+/* Four Doors */
+#pageWrapper{
+  background-image: linear-gradient(to right, black, rgb(218, 116, 0));
+}
+
+
+/*background photos*/
+#background {
+  display: flex;
+  background-image: linear-gradient(to right, black, rgb(218, 116, 0));
+  background-size: auto;
+  
+}
+
+#backgroundText {
+border: solid black;
+text-align: center;
+padding: 10px;
+margin: 10px;
+font-family: 'Yeseva One';
+}
+
+/*doors*/
+#doorGame{
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+#doorGame h1{
+  margin: 0;
+  padding: 15px 0;
+}
+
+#doorsContainer{
+width: 100%;
+display: flex;
+justify-content: space-evenly;
+margin-top: 80px;
+}
+
+.frontDoor{
+  border: solid #333;
+  background-color: black; 
+  width: 250px;
+  height: 500px;  
+  position: absolute;
+  transform-origin: left;
+  transition: all 0.5s ease-in-out;
+}
+
+.backDoor1{
+  position: relative;
+  width: 250px;
+  height: 500px;
+  background-image: url(../imgs/blm.jpg);
+  background-position: center;
+  background-size: 250%;
+  background-repeat: no-repeat;
+}
+
+.backDoor2{
+  position: relative;
+  width: 250px;
+  height: 500px;
+  background-image: url(../imgs/Marriage_Equality_1.jpeg);
+  background-position: center left;
+  background-size: 250%;
+  background-repeat: no-repeat;
+}
+
+.backDoor3{
+  position: relative;
+  width: 250px;
+  height: 500px;
+  background-image: url(../imgs/blm2.jpg);
+  background-position: center;
+  background-size: 230%;
+  background-repeat: no-repeat;
+}
+
+.backDoor4{
+  position: relative;
+  width: 250px;
+  height: 500px;
+  background-image: url(../imgs/eq.jpg);
+  background-position: center right;
+  background-size: 265%;
+  background-repeat: no-repeat;
+}
+
+.topPortion{
+  display: flex;
+}
+
+.leftBox{
+  border: double grey;
+  border-width: thick;
+  border-radius: 10px;
+  width: 105px;
+  height: 200px;
+  margin: 25px
+ }
+
+.rightBox{
+  border: double grey;
+  border-width: thick;
+  border-radius: 10px;
+  width: 105px;
+  height: 200px;
+  margin: 25px;
+}
+
+.doorKnob{
+  display: flex;
+  justify-content: end;
+  border: solid black;
+  background-color: gold;
+  border-radius: 25px;
+  width: 25px;
+  height: 25px;
+  margin-left: 210px;
+}
+
+.bottomPortion{
+  border: double grey;
+  border-width: thick;
+  height: 155px;
+  width: 200px;
+  margin: 22px;
+}
+
+
+.doorOpen
+{
+  /*prespectiv creates the door open effect*/
+  transform: perspective(1200px) translateZ(0px) translateX(0px) translateY(0px) rotateY(-105deg);
+}
+
+.doorKnob:hover{
+  cursor: pointer;
+}
+
+#copy{
+  text-align: center;
+  color: white;
+}
+
+
+/*traffic light game*/
+
+
+
+#trafficLight{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 70px auto;
+  padding: 10px;
+  width: 100px;
+  height: 260px;
+  background-color: gold;
+  border-radius: 15px;
+  border: solid black 5px;
+}
+
+.light{
+  width: 75px;
+  height: 75px;
+  margin-bottom: 15px;
+  border: 1px solid #555;
+  border-radius: 50%;
+}
+
+.lightOff{
+  background-color: black;
+}
+
+.red{
+  background-color: red;
+}
+
+.yellow{
+  background-color: yellow;
+}
+
+.green{
+  background-color: green;
+}
+
+#gameResult{
+  text-align: center;
+}
+
+#userChoice{
+  display: block; 
+  margin: 30px auto 0;
+  text-transform: uppercase;
+  
+  font-family: 'Yeseva One';
+}
+
+#copy{
+  
+  text-align: center;
+}
+
+
+/*sign page*/
+
+
+#directions{
+  font-family: 'Yeseva One';
+}
+
+#signageWrapper{
+border: 5px double black;
+background-color: rgb(3, 168, 197);
+max-width: 500px;
+margin: 15px auto 0;
+box-sizing: border-box;
+padding: 0 64px 15px;
+}
+
+#signageWrapper h2{
+text-align: center;
+letter-spacing: 10px;
+text-transform: uppercase;
+font-family: 'Yeseva One';
+}
+
+#signageWrapper label{
+display: block;
+margin-bottom: 5px;
+}
+
+#signageWrapper input[type="text"]{
+width: 96%;
+padding: 5px;
+height: 15px;
+margin-bottom: 8px;
+font-family: 'Yeseva One';
+}
+
+#signageWrapper button{
+display: block;
+margin-left: auto;
+padding: 5px;
+background-color: #2d2d2d;
+color: gold;
+text-transform: uppercase;
+border-radius: 10px;
+}
+
+#signageWrapper #resultWrapper{
+  display: flex;
+  justify-content: flex-end;
+}
+
+#signageWrapper #resultWrapper span{
+  align-self: center;
+  font-size: 30px;
+  color: gold;
+}
+
+#copy{
+  text-align: center;
+  color: white;
+}
